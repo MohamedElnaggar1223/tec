@@ -154,7 +154,7 @@ export function MessageFeed() {
             <div className="flex gap-2">
               <div className="relative w-5 h-5 mb-auto">
                 <Image
-                  src='t.svg'
+                  src='/t.svg'
                   width={50}
                   height={50}
                   alt='I'
