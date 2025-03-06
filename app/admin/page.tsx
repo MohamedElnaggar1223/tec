@@ -565,13 +565,13 @@ export default function AdminPage() {
             {userMessages.map((message) => (
               <Card key={message.id} className="p-4">
                 <div className="flex gap-2">
-                  <div className="relative w-5 h-5 mb-auto -mt-[2px]">
+                  <div className="relative w-6 h-6 mb-auto -mt-[3px]">
                     <Image
                       src='/t.svg'
                       width={50}
                       height={50}
                       alt='I'
-                      className='absolute w-5 h-5 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
+                      className='absolute w-6 h-6 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
                     />
                   </div>
                   <div className="flex-1">
@@ -897,13 +897,13 @@ export default function AdminPage() {
                   }}
                   className="mt-1"
                 />
-                <div className="relative w-5 h-5 mb-auto -mt-[2px]">
+                <div className="relative w-6 h-6 mb-auto -mt-[3px]">
                   <Image
                     src='/t.svg'
                     width={50}
                     height={50}
                     alt='I'
-                    className='absolute w-5 h-5 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
+                    className='absolute w-6 h-6 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
                   />
                 </div>
                 <div className="flex-1">
