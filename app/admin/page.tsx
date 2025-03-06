@@ -567,7 +567,7 @@ export default function AdminPage() {
                 <div className="flex gap-2">
                   <div className="relative w-5 h-5 mb-auto">
                     <Image
-                      src='/T.svg'
+                      src='t.svg'
                       width={50}
                       height={50}
                       alt='I'
@@ -899,7 +899,7 @@ export default function AdminPage() {
                 />
                 <div className="relative w-5 h-5 mb-auto">
                   <Image
-                    src='/T.svg'
+                    src='t.svg'
                     width={50}
                     height={50}
                     alt='I'
