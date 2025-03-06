@@ -152,7 +152,7 @@ export function MessageFeed() {
             className={`p-4 ${index >= unblurredCount ? 'blur-sm hover:blur-md transition-all' : ''}`}
           >
             <div className="flex gap-2">
-              <div className="relative w-5 h-5 mb-auto">
+              <div className="relative w-5 h-5 mb-auto -mt-[2px]">
                 <Image
                   src='/t.svg'
                   width={50}
