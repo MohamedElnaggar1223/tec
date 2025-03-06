@@ -571,7 +571,7 @@ export default function AdminPage() {
                       width={50}
                       height={50}
                       alt='I'
-                      className='absolute w-6 h-6 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
+                      className='absolute w-6 h-6 left-1/2 -top-0.5 -translate-x-1/2'
                     />
                   </div>
                   <div className="flex-1">
@@ -903,7 +903,7 @@ export default function AdminPage() {
                     width={50}
                     height={50}
                     alt='I'
-                    className='absolute w-6 h-6 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
+                    className='absolute w-6 h-6 left-1/2 -top-0.5 -translate-x-1/2'
                   />
                 </div>
                 <div className="flex-1">
