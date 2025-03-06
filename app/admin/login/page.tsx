@@ -22,7 +22,7 @@ export default function AdminLogin() {
 
         try {
             const userCredential = await signInWithEmailAndPassword(auth, email, password)
-            if (userCredential.user.email === 'admin@anahuac.com') {
+            if (userCredential.user.email === 'admin@tec.com') {
                 router.push('/admin')
             } else {
                 throw new Error('Not authorized')
